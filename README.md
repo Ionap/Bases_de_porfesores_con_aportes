@@ -44,7 +44,7 @@ La base de datos cuenta con las siguientes tablas principales:
 
 ## 📊 Consultas Útiles
 
-- Obtener el número de profesores por ente:
+- Consultar el procedimiento: Obtener el número de profesores por ente:
   ```sql
   SELECT e.nombre_ente, COUNT(DISTINCT p.numero_cedula) AS total_profesores
   FROM aportes a
@@ -53,7 +53,7 @@ La base de datos cuenta con las siguientes tablas principales:
   GROUP BY e.nombre_ente;
   ```
 
-- Obtener municipios por departamento:
+- Consultar la vista: Obtener municipios por departamento
   ```sql
   SELECT d.nombre_departamentos, m.nombre_municipios
   FROM municipios m

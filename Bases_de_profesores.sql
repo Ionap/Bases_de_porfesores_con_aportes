@@ -106,7 +106,7 @@ CREATE TABLE IF NOT EXISTS `aportes` (
 
 -- Inserción de datos en la tabla correspondiente
 INSERT INTO `aportes` (`id_aportes`, `numero_cedula`, `descuento`, `codigo_nomina`, `year`, `mes`, `id_entes`, `tipo_descuento`) VALUES
-(1, 5637877, 26072, '20240930', '2024', 9, 2, 'Mensual');
+(1, 123456789, 26072, '20240930', '2024', 9, 2, 'Mensual');
 
 -- --------------------------------------------------------
 

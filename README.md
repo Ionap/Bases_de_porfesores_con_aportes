@@ -1,11 +1,11 @@
-# Bases_de_porfesores_con_aportes
-# Base de Datos - Bases_de_porfesores
+# Bases_de_profesores_con_aportes
+# Base de Datos - Bases_de_profesores
 
-Este repositorio contiene la estructura y datos de la base de datos **Bases_de_porfesores**, utilizada para gestionar información de profesores, aportes y entidades.
+Este repositorio contiene la estructura y datos de la base de datos **Bases_de_profesores**, utilizada para gestionar información de profesores, aportes y entidades.
 
 ## 📂 Contenido del Repositorio
 
-- `Bases_de_porfesores.sql` → Archivo SQL con la estructura y datos de la base de datos.
+- `Bases_de_profesores.sql` → Archivo SQL con la estructura y datos de la base de datos.
 - `README.md` → Documento con instrucciones para importar y utilizar la base de datos.
 
 ## 📌 Requisitos
@@ -20,18 +20,18 @@ Para importar la base de datos, sigue estos pasos:
 ### Opción 1: Usando MySQL desde la Terminal
 1. Crea la base de datos:
    ```sql
-   CREATE DATABASE Bases_de_porfesores_con_aportes;
+   CREATE DATABASE Bases_de_profesores_con_aportes;
    ```
 2. Importa el archivo SQL:
    ```sh
-   mysql -u usuario -p Bases_de_porfesores_con_aportes < Bases_de_porfesores_con_aportes.sql
+   mysql -u usuario -p Bases_de_profesores_con_aportes < Bases_de_profesores_con_aportes.sql
    ```
    *(Reemplaza `usuario` con tu usuario de MySQL.)*
 
 ### Opción 2: Usando phpMyAdmin
 1. Accede a phpMyAdmin.
-2. Crea una nueva base de datos llamada **Bases_de_porfesores_con_aportes**.
-3. Ve a la pestaña **Importar** y selecciona el archivo `Bases_de_porfesores_con_aportes.sql`.
+2. Crea una nueva base de datos llamada **Bases_de_profesores_con_aportes**.
+3. Ve a la pestaña **Importar** y selecciona el archivo `Bases_de_profesores_con_aportes.sql`.
 4. Haz clic en **Continuar**.
 
 ## 🛠 Estructura de la Base de Datos

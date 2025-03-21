@@ -40,6 +40,9 @@ La base de datos cuenta con las siguientes tablas principales:
 - **aportes**: Registra los aportes realizados por cada profesor.
 - **entes**: Guarda información sobre los entes relacionados con los aportes.
 - **departamentos y municipios**: Relación entre departamentos y municipios.
+  
+## 🚀 Digrama Entidad Relacion
+   ![ERD](https://github.com/user-attachments/assets/ab8ac505-6f06-43f9-86cb-47dc1dd467c5)
 
 ## 📊 Consultas Útiles
 

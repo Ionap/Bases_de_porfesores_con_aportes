@@ -28,8 +28,8 @@ Para importar la base de datos, sigue estos pasos:
    ```
    *(Reemplaza `usuario` con tu usuario de MySQL.)*
 
-### Opción 2: Usando phpMyAdmin
-1. Accede a phpMyAdmin.
+### Opción 2: Usando MySQL workbench
+1. Accede a MySQL workbench.
 2. Crea una nueva base de datos llamada **Bases_de_profesores_con_aportes**.
 3. Ve a la pestaña **Importar** y selecciona el archivo `Bases_de_profesores_con_aportes.sql`.
 4. Haz clic en **Continuar**.

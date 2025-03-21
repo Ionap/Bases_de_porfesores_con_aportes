@@ -1,5 +1,4 @@
 # Bases_de_profesores_con_aportes
-# Base de Datos - Bases_de_profesores
 
 Este repositorio contiene la estructura y datos de la base de datos **Bases_de_profesores**, utilizada para gestionar información de profesores, aportes y entidades.
 
